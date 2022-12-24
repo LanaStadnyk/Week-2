@@ -1,0 +1,84 @@
+:root {
+  --h3-color: #4d4d4d;
+  --paragrapgh-bg: #f5f2fe;
+  --purple-color: #6c63ff;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: var(--purple-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  color: var(--h3-color);
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navigation-links a {
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.contact-me-link {
+  color: white;
+  background: var(--purple-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-me-link {
+  color: var(--purple-color);
+  border: 1px solid var(--purple-color);
+}
+
+.description-about-me {
+  display: flex;
+  margin: 30px 0;
+}
+
+.description-about-me p {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 4px;
+  background: var(--paragrapgh-bg);
+}
+
+.email-link {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
