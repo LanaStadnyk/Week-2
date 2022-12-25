@@ -4,11 +4,6 @@
   --purple-color: #6c63ff;
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
-
 a {
   display: block;
   text-align: center;
