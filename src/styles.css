@@ -1,17 +1,11 @@
 :root {
-  --h3-color: #64676A;
+  --h3-color: #64676a;
   --paragrapgh-bg: #f5f2fe;
   --purple-color: #6c63ff;
 }
 
 .main {
   margin-top: 45px;
-}
-
-a {
-  display: block;
-  text-align: center;
-  color: var(--purple-color);
 }
 
 h1,
@@ -34,6 +28,11 @@ h3 {
   color: var(--h3-color);
 }
 
+p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -47,10 +46,13 @@ h3 {
   border-radius: 4px;
 }
 
-.contact-me-link {
+.primary-link {
   color: white;
   background: var(--purple-color);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 .about-me-link {
@@ -59,15 +61,13 @@ h3 {
 }
 
 .description-about-me {
-  display: flex;
   margin: 30px 0;
 }
 
 .description-about-me p {
   margin: 10px;
   padding: 20px;
-  font-size: 18px;
-  line-height: 27px;
+
   text-align: center;
   border-radius: 4px;
   background: var(--paragrapgh-bg);
@@ -76,6 +76,8 @@ h3 {
 .email-link {
   font-size: 28px;
   text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 .email-link:hover {
