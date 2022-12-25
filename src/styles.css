@@ -28,10 +28,13 @@ h3 {
   color: var(--h3-color);
 }
 
+p{
+    font-size: 18px;
+  line-height: 27px;
+}
+
 .about-paragraphs p {
   margin: 30px;
-  font-size: 18px;
-  line-height: 27px;
 }
 
 .navigation-links {
