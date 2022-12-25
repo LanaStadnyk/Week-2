@@ -28,7 +28,8 @@ h3 {
   color: var(--h3-color);
 }
 
-p {
+.about-paragraphs p {
+  margin: 30px;
   font-size: 18px;
   line-height: 27px;
 }
@@ -58,19 +59,6 @@ p {
 .about-me-link {
   color: var(--purple-color);
   border: 1px solid var(--purple-color);
-}
-
-.description-about-me {
-  margin: 30px 0;
-}
-
-.description-about-me p {
-  margin: 10px;
-  padding: 20px;
-
-  text-align: center;
-  border-radius: 4px;
-  background: var(--paragrapgh-bg);
 }
 
 .email-link {
